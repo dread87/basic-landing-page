@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap);
+
+.info,
+footer {
+    text-align: center
+}
+
+* {
+    font-family: Roboto, sans-serif
+}
+
+body {
+    margin: 0;
+    background-color: #1f2937;
+    color: #fff
+}
+
+.header-logo,
+header {
+    font-size: 24px;
+    color: #f9faf8
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 1rem;
+    margin-top: 1.2rem
+}
+
+.header-logo {
+    flex: 1.1;
+    margin-left: 5rem
+}
+
+.header-links {
+    flex: 1;
+    display: flex
+}
+
+.header-links a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px
+}
+
+.intro {
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4rem
+}
+
+.intro-box-1 {
+    display: block;
+    justify-content: center;
+    margin-left: 5rem
+}
+
+.intro-box-1 h1 {
+    margin-bottom: 0;
+    font-size: 48px;
+    color: #f9faf8
+}
+
+.intro-box-1 p {
+    margin-top: 0;
+    color: #e5e7eb;
+    font-size: 18px
+}
+
+.intro-box-2 {
+    margin: 1rem
+}
+
+.intro-box-2,
+img {
+    max-width: 60%;
+    display: flex;
+    justify-content: center
+}
+
+.info {
+    background-color: #fff;
+    color: #000
+}
+
+.info-img,
+.info-img-subtext {
+    display: flex;
+    justify-content: center
+}
+
+.info-img img {
+    max-width: 10%;
+    margin: 1.5rem 1.5rem .3rem
+}
+
+img {
+    border-radius: .5rem
+}
+
+.info-img-subtext p {
+    max-width: 10%;
+    font-size: .8rem;
+    margin: 0 1.5rem 1.5rem
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 4rem 10rem;
+    color: #1f2937;
+    font-style: italic
+}
+
+#submit-1,
+#submit-2,
+.sign-up-box {
+    background-color: #3882f6
+}
+
+#quote-author {
+    text-align: end;
+    margin-right: 2rem;
+    font-style: normal
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: space-around
+}
+
+footer {
+    padding: .5rem
+}
+
+.sign-up {
+    background-color: #fff;
+    padding: 3rem 8rem
+}
+
+#submit-1 {
+    color: #fff;
+    border: 2px;
+    border-radius: 3px;
+    padding: 3px 12px
+}
+
+#submit-2 {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 0 16px;
+    margin: 34px
+}
